@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/send"
+  to = "/.netlify/functions/sendMessage"
+  status = 200
